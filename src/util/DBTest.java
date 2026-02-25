@@ -36,21 +36,17 @@ public class DBTest {
  *
  * SETUP STEPS:
  *
- * 1. Create a file called config.properties in the project root, same level as src not inside it
- * 2. Inside that file put your MySQL password like this, no quotes no spaces around the equals:
+ * 1. config.properties inside that file put your MySQL password like this, no quotes no spaces around the equals:
  *        DB_PASSWORD=yourmysqlpassword
- * 3. config.properties is in .gitignore so it never gets pushed to GitHub,
+ * 2.  Put config.properties is in .gitignore so it never gets pushed to GitHub,
  *    everyone just has their own local copy with their own password
- * 4. Run the CREATE TABLE script from the planning doc in MySQL Workbench to set up the database
- * 5. Add the MySQL Connector JAR to your classpath in Eclipse:
+ * 3. Run the CREATE TABLE script from the planning doc in MySQL Workbench to set up the database
+ * 4. Add the MySQL Connector JAR to your classpath in Eclipse:
  *    right-click project -> Build Path -> Configure Build Path -> Libraries -> Add External JARs in Classpath 
  *    (Use one in project so we have same connector is most recent)
- * 6. Run DBTest.java to make sure your connection works before writing any queries
+ * 5. Run DBTest.java to make sure your connection works before writing any queries
  *
  * What needs to be in each file:
- * ```
-
----
 
 **config.properties** create in project (write:
 DB_PASSWORD=yourmysqlpassword
