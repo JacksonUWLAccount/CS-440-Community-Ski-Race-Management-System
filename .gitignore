@@ -9,7 +9,7 @@ build/
 !**/src/test/**/target/
 !**/src/main/**/build/
 !**/src/test/**/build/
-/ski_management/src/main/resources/config.properties
+Backend/ski_management/src/main/resources/config.properties
 
 # ========================
 # Eclipse / STS
