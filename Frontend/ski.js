@@ -59,3 +59,9 @@ document.addEventListener("DOMContentLoaded",function(){
         login();
     });
 });
+
+
+
+
+//if coach or skier login then display their team and upcoming races make it simple
+// if admin logs in we show a button for create season, create team, crete race, add coach, add skier
